@@ -1,9 +1,7 @@
 # XAI-Hotel-Booking-Canceling
 
 ## Overview
-The guven dataset contains hotel booking data from two hotels in Portugal: a resort hotel (H1) and a city hotel (H2). The dataset spans from July 1, 2015, to August 31, 2017, and includes bookings that were either canceled or completed. It is structured with 31 variables for each hotel booking observation.
-
-The dataset is useful for research in areas such as revenue management, machine learning, data mining, and predictive analytics, particularly for modeling booking cancellations.
+The guven dataset contains hotel booking data from two hotels in Portugal: a resort hotel (H1) and a city hotel (H2). The dataset spans from July 1, 2015, to August 31, 2017, and includes bookings that were either canceled or completed. It is structured with **31 variables for each hotel** booking observation.
 
 ## Variables
 
