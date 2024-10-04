@@ -76,16 +76,5 @@ The variables in the dataset are classified into **Numeric**, **Integer**, **Cat
 
 ## Data Engineering Notes
 - Some variables were directly extracted from hotel databases, while others were engineered using combinations of data fields (e.g., total number of special requests).
-- Values for some categorical variables such as **Agent** and **Company** are anonymized for privacy.
+- Values for some categorical variables such as **Agent** and **Company** are anonymized(NA/NULL) for privacy.
 
-## Usage Guidelines
-This dataset is suitable for:
-- Revenue management studies
-- Predictive analytics, especially in booking cancellations
-- Customer segmentation analysis
-- Machine learning model benchmarking for classification, segmentation, etc.
-- Educational purposes for teaching data mining or machine learning.
-
----
-
-This README file should clarify the purpose and structure of the dataset, facilitating its use in research and educational projects.
