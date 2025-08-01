@@ -3,8 +3,20 @@ library(dplyr)
 library(tidyr)
 library(readr)
 
-#Load the dataset
-df <- read_csv("~/Win7/Desktop/EDA in R/hotel (2).csv")
+# Load the dataset from the repository
+df <- read_csv("hotel (2).csv")
+
+# Create a lead time bucket since it does not exist in the raw data
+df <- df %>%
+  mutate(
+    lead_time_bucket = cut(
+      lead_time,
+      breaks = c(0, 7, 30, 90, 180, Inf),
+      labels = c("0-7", "8-30", "31-90", "91-180", "180+"),
+      right = TRUE,
+      include.lowest = TRUE
+    )
+  )
 
 # Filter out 'Undefined' market segment
 df_filtered <- df %>%
